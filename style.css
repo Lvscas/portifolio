@@ -452,6 +452,13 @@ section.footer {
   .experience__box1 {
     display: none;
   }
+
+  .footer__rodape {
+    display: flex;
+    font-size: 20px;
+    padding: 0;
+    width: 340px;
+  }
 }
 
 @media screen and (max-width: 850px) {
