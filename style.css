@@ -550,7 +550,7 @@ section.footer {
 
   .academic__title {
     justify-content: center;
-    font-size: 30px;
+    font-size: 28px;
     width: 340px;
   }
 
@@ -563,7 +563,7 @@ section.footer {
   /* FOOTER */
   .footer__rodape {
     display: flex;
-    font-size: 18px;
+    font-size: 17px;
     padding: 0;
     width: 340px;
   }
