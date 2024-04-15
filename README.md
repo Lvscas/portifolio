@@ -38,9 +38,4 @@ Este repositório contém o código do meu portifólio que foi desenvolvido util
 O website se adapta automaticamente à diferentes tamanhos de tela, desde desktops até dispositivos móveis.
 Layout otimizado para melhor visualização em diversos dispositivos.
 
-## Formulário externo:
-
-Utilizado para integrar um formulário de contato de um serviço externo: Formsubmit
-Permite aos visitantes enviar mensagens de forma direta e eficiente para meu email.
-
 [Demo do portfólio](https://luscas-dev-portifolio.vercel.app/)
