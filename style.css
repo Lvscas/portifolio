@@ -129,6 +129,18 @@ section.title {
 .network__img {
   display: flex;
   width: 60px;
+  border-radius: 10%;
+}
+.network__imgg {
+  display: flex;
+  width: 60px;
+  border-radius: 50%;
+}
+
+.network__img:hover, .network__imgg:hover{
+  box-shadow: 0 5px 5px -1px var(--cor-4);
+  transform: translateY(-10px);
+  transition: 0.3s;
 }
 
 .title__profile {
@@ -550,7 +562,7 @@ section.footer {
 
   .academic__title {
     justify-content: center;
-    font-size: 28px;
+    font-size: 30px;
     width: 340px;
   }
 
@@ -563,7 +575,7 @@ section.footer {
   /* FOOTER */
   .footer__rodape {
     display: flex;
-    font-size: 17px;
+    font-size: 18px;
     padding: 0;
     width: 340px;
   }
