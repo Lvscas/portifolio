@@ -406,6 +406,10 @@ section.footer {
     width: 50px;
   }
 
+  .network__imgg {
+    width: 50px;
+  }
+
   /* Sobre */
   .about__container {
     display: flex;
@@ -473,7 +477,7 @@ section.footer {
   }
 }
 
-@media screen and (max-width: 850px) {
+@media only screen and (max-width: 850px) {
   .title__div {
     margin-top: 350px;
   }
@@ -505,9 +509,7 @@ section.footer {
     font-size: 20px;
   }
 
-  .network__img {
-    width: 50px;
-  }
+
 
   /* SOBRE MIM */
   section.about {
