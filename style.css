@@ -137,7 +137,8 @@ section.title {
   border-radius: 50%;
 }
 
-.network__img:hover, .network__imgg:hover{
+.network__img:hover,
+.network__imgg:hover {
   box-shadow: 0 5px 5px -1px var(--cor-4);
   transform: translateY(-10px);
   transition: 0.3s;
@@ -315,14 +316,14 @@ section.experience {
   color: var(--cor-4);
 
   display: flex;
+  flex-direction: column;
   align-items: center;
   justify-content: center;
-  flex-flow: column;
   padding: 32px 120px 32px 120px;
 }
 
 .experience__section__title {
-  display: none;
+  display: flex;
   align-items: center;
   justify-content: center;
 }
@@ -333,11 +334,31 @@ section.experience {
   color: var(--cor-1);
   font-weight: 800;
 
-  display: none;
-  justify-content: left;
+  display: flex;
   align-items: center;
   position: relative;
   float: left;
+  gap: 30px;
+  margin-right: 300px;
+}
+
+.experience__title {
+  font-family: "Righteous", sans-serif;
+  font-weight: 600;
+  color: var(--cor-4);
+  font-size: 40px;
+  margin: 0;
+}
+
+.experience__text {
+  color: var(--cor-2);
+}
+
+.experience__img {
+  display: flex;
+  width: 500px;
+  padding: 0;
+  border-radius: 30%;
 }
 
 .experience__box2 {
@@ -354,6 +375,25 @@ section.experience {
   float: left;
 }
 
+.experiencia__botao--repo, .experiencia__botao--demo {
+  background-color: var(--cor-4);
+  border: none;
+  color: white;
+  margin: 5px;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  cursor: pointer;
+  transition: all 0.5s linear;
+}
+
+.experiencia__botao--repo:hover, .experiencia__botao--demo:hover {
+  box-shadow: inset 0 0 0.5rem 4em var(--cor-2);
+  color: var(--cor-3);
+}
+
 /*footeer*/
 
 section.footer {
@@ -361,7 +401,7 @@ section.footer {
   font-size: 22px;
 
   display: flex;
-  justify-content: center;
+  align-items: baseline;
   position: relative;
   top: 100px;
   padding: 24px;
@@ -371,6 +411,8 @@ section.footer {
 
 .footer__rodape {
   display: flex;
+  justify-content: flex-end;
+  align-items: baseline;
   flex-direction: column;
   align-items: center;
 }
@@ -465,8 +507,29 @@ section.footer {
     flex-direction: column;
   }
   /*Expeirência profissional*/
+  section.experience {
+    padding: 0;
+  }
+
+  .experience__section__title {
+    font-size: 29px;
+  }
+
   .experience__box1 {
-    display: none;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 0;
+  }
+
+  .experience__img {
+    width: 300px;
+  }
+  
+  .experience__title {
+    display: flex;
+    justify-content: center;
+    font-size: 35px;
   }
 
   .footer__rodape {
@@ -508,8 +571,6 @@ section.footer {
   .title__subsection {
     font-size: 20px;
   }
-
-
 
   /* SOBRE MIM */
   section.about {
@@ -578,6 +639,7 @@ section.footer {
   .footer__rodape {
     display: flex;
     font-size: 18px;
+    flex-wrap: wrap;
     padding: 0;
     width: 340px;
   }
